@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right, green, orange);
+}
+
+
+#searchbar {
+    background: linear-gradient(to right, green, orange);
+    color: aliceblue;
+}
+
+#searchbar::placeholder {
+    color: #ddd;
+}
+#suggestions {
+    margin-top: 3%;
+    position: absolute;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 75%;
+    background: white;
+}
+
+#suggestions ul {
+    padding: 0;
+    margin: 0;
+}
+
+#suggestions ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#suggestions ul li:hover {
+    background-color: #ddd;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}

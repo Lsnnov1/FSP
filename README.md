@@ -1,0 +1,1 @@
+a searchterm app that listens to your keys and autocompletes your query. 
